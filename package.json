@@ -1,0 +1,17 @@
+{
+  "name": "performance-testing-example",
+  "version": "1.0.0",
+  "description": "A simple example for testing performance in JavaScript",
+  "main": "script.ts",
+  "scripts": {
+    "startTest": "ts-node script.ts",
+    "startTestChaining": "ts-node passthrough.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  }
+}
